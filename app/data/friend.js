@@ -22,7 +22,7 @@ var userArray = [
     {
       firstName: "John",
       lastName: "Smith",
-      userEmail: "ahmed@example.com",
+      userEmail: "john@example.com",
       userImage: "https://bit.ly/31IbbkS",
       phoneNumber: "000-000-0000"
     }
