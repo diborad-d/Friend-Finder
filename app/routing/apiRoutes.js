@@ -1,9 +1,5 @@
-
-
-var friends = require("../data/friends");
-
+var friends = require("../data/friend");
 module.exports = function(app) {
-
   app.get("/api/friends", function(req, res) {
     res.json(friends);
   });
@@ -17,12 +13,15 @@ module.exports = function(app) {
 
     var userData = req.body;
     var userScores = userData.scores;
+
     var totalDifference;
+
     for (var i = 0; i < friends.length; i++) {
       var currentFriend = friends[i];
       totalDifference = 0;
 
       console.log(currentFriend.name);
+
       for (var j = 0; j < currentFriend.scores.length; j++) {
         var currentFriendScore = currentFriend.scores[j];
         var currentUserScore = userScores[j];
@@ -31,7 +30,6 @@ module.exports = function(app) {
       }
 
       if (totalDifference <= bestMatch.friendDifference) {
-        // Reset the bestMatch to be the new friend.
         bestMatch.name = currentFriend.name;
         bestMatch.photo = currentFriend.photo;
         bestMatch.friendDifference = totalDifference;

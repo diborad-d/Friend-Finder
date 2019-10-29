@@ -25,7 +25,7 @@ var userArray = [
       userEmail: "john@example.com",
       userImage: "https://bit.ly/31IbbkS",
       phoneNumber: "000-000-0000"
-    }
+    },
   ];
   
   // Note how we export the array. This makes it accessible to other files using require.
