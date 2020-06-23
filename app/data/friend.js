@@ -5,6 +5,62 @@ var userArray = [
     userImage: "https://bit.ly/31IbbkS",
     phoneNumber: "000-000-0000",
     scores: ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
+  },
+  {
+    Name: "Sarah McDonalds",
+    userEmail: "msarah@example.com",
+    userImage: "https://bit.ly/31IbbkS",
+    phoneNumber: "000-000-0000",
+    scores: ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
+  },
+  {
+    Name: "John Smith",
+    userEmail: "john@example.com",
+    userImage: "https://bit.ly/31IbbkS",
+    phoneNumber: "000-000-0000",
+    scores: ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
+  },
+  {
+    Name: "John Smith",
+    userEmail: "john@example.com",
+    userImage: "https://bit.ly/31IbbkS",
+    phoneNumber: "000-000-0000",
+    scores: ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
+  },
+  {
+    Name: "John Smith",
+    userEmail: "john@example.com",
+    userImage: "https://bit.ly/31IbbkS",
+    phoneNumber: "000-000-0000",
+    scores: ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
+  },
+  {
+    Name: "John Smith",
+    userEmail: "john@example.com",
+    userImage: "https://bit.ly/31IbbkS",
+    phoneNumber: "000-000-0000",
+    scores: ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
+  },
+  {
+    Name: "John Smith",
+    userEmail: "john@example.com",
+    userImage: "https://bit.ly/31IbbkS",
+    phoneNumber: "000-000-0000",
+    scores: ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
+  },
+  {
+    Name: "John Smith",
+    userEmail: "john@example.com",
+    userImage: "https://bit.ly/31IbbkS",
+    phoneNumber: "000-000-0000",
+    scores: ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
+  },
+  {
+    Name: "John Smith",
+    userEmail: "john@example.com",
+    userImage: "https://bit.ly/31IbbkS",
+    phoneNumber: "000-000-0000",
+    scores: ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
   }
 ];
 
